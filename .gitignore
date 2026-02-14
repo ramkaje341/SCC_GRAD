@@ -1,0 +1,27 @@
+# Virtual environment 
+cse7/
+venv/
+env/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Environment variables
+.env
+
+# Model file (too large for Git)
+*.h5
+*.pkl
+
+# MongoDB data
+data/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
