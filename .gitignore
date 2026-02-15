@@ -1,23 +1,57 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
-# dependencies
-/node_modules
-/.pnp
+# -----------------------------
+# Node / React
+# -----------------------------
+node_modules/
+.pnp/
 .pnp.js
+coverage/
+build/
 
-# testing
-/coverage
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-# production
-/build
-
-# misc
-.DS_Store
+# React env files
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
 
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# -----------------------------
+# Python / ML
+# -----------------------------
+# Virtual environments
+cse7/
+venv/
+env/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Environment variables
+.env
+
+# Model files (DO NOT UPLOAD MODELS)
+*.h5
+*.pkl
+*.pt
+*.pth
+*.ckpt
+
+# Dataset / database
+data/
+datasets/
+
+# -----------------------------
+# System files
+# -----------------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# IDE
+# -----------------------------
+.vscode/
+.idea/
